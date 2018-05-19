@@ -1,4 +1,5 @@
 **MLB GameDay API Scraper**
+Using Python 3.6.5
 
 This program will create a CSV file containing various baseball information based on an inputted date.
 
