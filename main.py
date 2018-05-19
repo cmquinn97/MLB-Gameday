@@ -11,7 +11,7 @@ date = input("Enter date (Format as 'yyyy/mm/dd'):")
 date_split = date.split("/")
 filename = date.replace("/","_")
 
-# formats the url
+# formats the url. urlopen opens and accesses the url
 open_url = urlopen(url.format(int(date_split[0]),int(date_split[1]),int(date_split[2])) + 'grid.xml')
 
 # parse_xml parses the formatted url to enable navigation while root will get the parsed xml's root elements
